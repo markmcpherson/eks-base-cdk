@@ -10,7 +10,7 @@ export class Constants {
     public static readonly clusterName = 'eks-dev-cluster';
 
     // this hosted zone must already exist in Route53
-    public static readonly externalDNSDomainName = 'themcphersons.example.com'; 
+    public static readonly externalDNSDomainName = 'example.com'; 
 
     public static readonly devTeamPrincipals = [
         new ArnPrincipal('arn:aws:iam::123456789012:user/dev-user'),  
